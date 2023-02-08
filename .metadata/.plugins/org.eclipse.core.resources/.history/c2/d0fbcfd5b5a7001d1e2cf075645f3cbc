@@ -35,7 +35,7 @@ class CalculatorImpl implements Calculator{
 	@Override
 	public String displayErrorMessage() {
 		return "Invalid Choice";
-	} 
+	}
 }
 public class Calculator1 {
 	public static void main(String[] args) {

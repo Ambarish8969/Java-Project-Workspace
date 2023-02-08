@@ -27,7 +27,7 @@ class CalculatorImpl implements Calculator{
 	} 
 	@Override
 	public int div(int a, int b) {
-		if(b == 0 || b>a) {
+		if(b == 0 || b<a) {
 			return 0;
 		}
 		return a/b;
@@ -35,7 +35,7 @@ class CalculatorImpl implements Calculator{
 	@Override
 	public String displayErrorMessage() {
 		return "Invalid Choice";
-	} 
+	}
 }
 public class Calculator1 {
 	public static void main(String[] args) {
