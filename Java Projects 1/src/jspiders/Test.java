@@ -1,8 +1,8 @@
 package jspiders;
 
-class Student{
-	private int age;
-	private String name;
+class Student{ 
+	private int age; 
+	private String name; 
 	
 	public void setName(String name) {
 		this.name=name;
@@ -21,8 +21,8 @@ public class Test {
 	public static void main(String[] args) {
 		Student s1=new Student();
 		
-		s1.setAge(23); // initialising the age
-		s1.setName("Ambarish"); // initialising the name
+		s1.setAge(23); // Initialising the age
+		s1.setName("Ambarish"); // Initialising the name
 		
 		System.out.println("Age : "+s1.getAge());
 		System.out.println("Name : "+s1.getName());

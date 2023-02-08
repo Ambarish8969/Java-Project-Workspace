@@ -1,0 +1,39 @@
+package com.jsp.Calculator;
+//<<  >>  --> Stereotypes
+// <  >   --> Generics
+interface Calculator{
+	int add(int a, int b);
+	int sub(int a, int b);
+	int mul(int a, int b); 
+	int div(int a, int b);
+	String displayErrorMessage();
+}
+
+class CalculatorImpl implements Calculator{
+	@Override
+	public int add(int a, int b) {
+		return a+b;
+	}
+	@Override
+	public int sub(int a, int b) {
+		return a-b;
+	}
+	@Override
+	public int mul(int a, int b) {
+		return a*b; 
+	} 
+	@Override
+	public int div(int a, int b) {
+		return a/b;
+	}
+	@Override
+	public String displayErrorMessage() {
+		return "Invalid Choice";
+	}
+}
+public class Calculator1 {
+	public static void main(String[] args) {
+		System.out.println("1 : Addition\n2 : Sub\n3 : Mul\n4 : Div\n5 : Exit");
+	}
+}
+// all the above methods are automatically public and abstract.

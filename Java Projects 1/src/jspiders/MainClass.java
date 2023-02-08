@@ -10,7 +10,7 @@ class Amazon implements Paytm{
 		System.out.println("Paying through Paytm");
 	}
 }
-public class MainClass {
+public class MainClass { 
 	public static void main(String[] args) {
 		System.out.println("Id : "+Paytm.id);
 		Amazon amazon=new Amazon();
