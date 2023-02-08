@@ -2,7 +2,7 @@ package com.jsp.Calculator;
 
 import java.util.Scanner;
 
-// <<  >>  --> Stereotypes
+//<<  >>  --> Stereotypes
 // <  >   --> Generics
 interface Calculator{
 	int add(int a, int b);
