@@ -49,14 +49,14 @@ public class Calculator1 {
 			System.out.print("Enter your Choice : ");
 			System.out.println("\n1 : Add\n2 : Sub\n3 : Mul\n4 : Div\n5 : Exit");
 			int choice=ip.nextInt();
-			int a=0;
+			int a=0; 
 			int b=0;
 			if(choice>=1 && choice<=4) {
 				System.out.println("Enter two numbers : ");
 				a=ip.nextInt();
 				b=ip.nextInt();
 			}
-		   
+		    
 			switch(choice) {
 			case 1: System.out.println("Add : "+c.add(a, b));
 			break;
