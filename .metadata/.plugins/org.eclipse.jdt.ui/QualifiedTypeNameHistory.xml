@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.jsp.Calculator.CalculatorImpl"/>
+    <fullyQualifiedTypeName name="defaultSorting.Solution"/>
+    <fullyQualifiedTypeName name="defaultSorting.Hotel"/>
 </qualifiedTypeNameHistroy>

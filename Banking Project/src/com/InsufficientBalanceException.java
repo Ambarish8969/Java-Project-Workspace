@@ -6,10 +6,10 @@ public class InsufficientBalanceException extends RuntimeException {
 	public InsufficientBalanceException(String message) {
 		this.message=message;
 	}
-	
+	 
 	@Override
 	public String getMessage() {
-		return message; 
+		return message;  
 	} 
 }
 

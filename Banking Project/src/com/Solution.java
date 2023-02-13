@@ -22,7 +22,7 @@ public class Solution {
 				b.withdraw(ip.nextInt());
 				break;
 			case 3:System.out.println(b.getBalance());
-			break;
+			break; 
 			case 4:
 				System.out.println("Thank You. Use me Again");
 				System.exit(0);
