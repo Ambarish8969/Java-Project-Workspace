@@ -13,13 +13,14 @@ public class Car implements Comparable<Car>{
 		return "Car [cost = " + cost + "]";
 	}
 	
+	@Override
 	public int compareTo(Car c) {
 		return this.cost-c.cost;
 	}
 }
 
-// this. -> object ot be inserted (current object) c -> already existing object
+// this. -> object to be inserted (current object) c -> already existing object
 // <<Coparable>> -> PDI, java.lang, JDK1.2
 // 1. Class should implement comparable interface.
-// 2. Specify Generics.
-// 3. Override compareTo() -> public int compareTo(Elemetn e);
+// 2. Specify Generic.
+// 3. Override compareTo() -> public int compareTo(Element e);

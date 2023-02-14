@@ -3,4 +3,10 @@
     <fullyQualifiedTypeName name="com.jsp.Calculator.CalculatorImpl"/>
     <fullyQualifiedTypeName name="defaultSorting.Solution"/>
     <fullyQualifiedTypeName name="defaultSorting.Hotel"/>
+    <fullyQualifiedTypeName name="com.Student"/>
+    <fullyQualifiedTypeName name="com.SortStudentAge"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="com.SortEmployeeById"/>
+    <fullyQualifiedTypeName name="com.SortEmployeeByName"/>
+    <fullyQualifiedTypeName name="com.SortEmployeeBySalary"/>
 </qualifiedTypeNameHistroy>
