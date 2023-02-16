@@ -28,7 +28,9 @@ public class EmployeeSolution {
 		l1.add(e3);
 		
 		while(true) {
-			System.out.println("1:ById\n2:ByName\n3:BySalary");
+			System.out.println("1:SortEmployeeById\n2:SortEmployeeByName\n"
+					+ "3:SortEmployeeBySalary\n4:Exit");
+			System.out.println("Enter your choice : ");
 			int choice=ip.nextInt();
 			switch(choice) {
 			case 1:
@@ -50,10 +52,12 @@ public class EmployeeSolution {
 				}
 				break;
 			case 4:
+				System.out.println("Thank You.");
 				System.exit(0);
 			default:
 				System.out.println("Invalid Choice.");
 			}
+			System.out.println("------------------------------------");
 		}
 	}
 }

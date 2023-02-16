@@ -1,7 +1,9 @@
 package com;
 
-public class Student{
-	int age;
+import java.util.Comparator;
+
+public class Student {
+	int age; 
 	
 	Student(int age){
 		this.age=age;
