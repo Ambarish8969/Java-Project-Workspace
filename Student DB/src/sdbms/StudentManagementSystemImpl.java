@@ -17,7 +17,7 @@ public class StudentManagementSystemImpl implements StudentManagementSystem {
 		System.out.println("Enter student age : ");
 		int age=ip.nextInt();
 		System.out.println("Enter student name : ");
-		ip.nextLine();
+		ip.nextLine(); // if didn't write ip.nextLine() then cursor will go to the 3rd input.
 		String name=ip.nextLine(); // we can take input using next() also.
 		System.out.println("Enter student marks : ");
 		int marks=ip.nextInt();
