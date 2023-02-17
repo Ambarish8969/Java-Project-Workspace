@@ -10,4 +10,5 @@
     <fullyQualifiedTypeName name="com.SortEmployeeByName"/>
     <fullyQualifiedTypeName name="com.SortEmployeeBySalary"/>
     <fullyQualifiedTypeName name="sdbms.Employee"/>
+    <fullyQualifiedTypeName name="customexception.StudentNotFoundException"/>
 </qualifiedTypeNameHistroy>
