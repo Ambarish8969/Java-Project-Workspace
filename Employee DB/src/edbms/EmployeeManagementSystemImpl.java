@@ -48,7 +48,7 @@ public class EmployeeManagementSystemImpl implements EmployeeManagementSystem {
 				throw new EmployeeNotFoundException("Employee Not Found");
 			}
 			catch(Exception e) {
-				e.printStackTrace();
+				System.out.println(e.getMessage());
 			}
 		}
 	}
@@ -81,7 +81,7 @@ public class EmployeeManagementSystemImpl implements EmployeeManagementSystem {
 				throw new EmployeeNotFoundException("Employee Not Found");
 			}
 			catch(Exception e) {
-				e.printStackTrace();
+				System.out.println(e.getMessage());
 			}
 		}
 	}
