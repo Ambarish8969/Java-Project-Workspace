@@ -11,4 +11,8 @@
     <fullyQualifiedTypeName name="com.SortEmployeeBySalary"/>
     <fullyQualifiedTypeName name="sdbms.Employee"/>
     <fullyQualifiedTypeName name="customexception.StudentNotFoundException"/>
+    <fullyQualifiedTypeName name="edbms.EmployeeManagementSystem"/>
+    <fullyQualifiedTypeName name="edbms.EmployeeManagementSystemImpl"/>
+    <fullyQualifiedTypeName name="customexception.InvalidChoiceException"/>
+    <fullyQualifiedTypeName name="customexception.EmployeeNotFoundException"/>
 </qualifiedTypeNameHistroy>
