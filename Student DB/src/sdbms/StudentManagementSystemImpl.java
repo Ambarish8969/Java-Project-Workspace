@@ -16,10 +16,10 @@ import customexception.InvalidChoiceException;
 import customexception.StudentNotFoundException;
 
 public class StudentManagementSystemImpl implements StudentManagementSystem {
-	
+
 	Scanner ip=new Scanner(System.in);
 	Map<String,Student> db=new LinkedHashMap<String,Student>();
-	
+
 	@Override
 	public void addStudent() {
 		System.out.println("Enter student age : ");
@@ -38,7 +38,7 @@ public class StudentManagementSystemImpl implements StudentManagementSystem {
 		System.out.println("Enter student id : ");
 		String std_id=ip.next().toUpperCase();
 		if(db.containsKey(std_id)) { // checking id is present or not.
-//			System.out.println(db.get(std_id));
+			//			System.out.println(db.get(std_id));
 			Student std=db.get(std_id);
 			System.out.println("Id : "+std.getId());
 			System.out.println("Age : "+std.getAge());
@@ -156,7 +156,7 @@ public class StudentManagementSystemImpl implements StudentManagementSystem {
 	@Override
 	public void sortStudents() {
 		Set<String> s=db.keySet();
-		List<Student>al= new ArrayList<Student>();
+		List<Student> al= new ArrayList<Student>();
 		for(String ele:s) {
 			al.add(db.get(ele));
 		}

@@ -6,14 +6,13 @@ public class Employee {
 	private String name;
 	private double salary;
 	
-	int count=101;
+	static int count=101;
 	
-	public Employee(int age, String name, double salary, int count) {
+	public Employee(int age, String name, double salary) {
 		super();
 		this.age = age;
 		this.name = name;
 		this.salary = salary;
-		this.count = count;
 		this.id="CAP"+count;
 		count++;
 	}
@@ -37,6 +36,11 @@ public class Employee {
 	}
 	public String getId() {
 		return id;
+	}
+	
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", age=" + age + ", name=" + name + ", salary=" + salary + "]";
 	}
 	
 }
