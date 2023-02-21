@@ -35,14 +35,14 @@ public class EmployeeManagementSystemImpl implements EmployeeManagementSystem {
 	@Override
 	public void displayEmployee(){
 		System.out.println("Enter Employee Id : ");
-		String emp_id=ip.next();
+		String emp_id=ip.next().toUpperCase();
 		if(db.containsKey(emp_id)) {
 //			System.out.println(db.get(emp_id));
 			Employee emp=db.get(emp_id);
 			System.out.println("Id : "+emp.getId());
 			System.out.println("Age : "+emp.getAge());
 			System.out.println("Name : "+emp.getName());
-			System.out.println("Marks : "+emp.getSalary());
+			System.out.println("Salary : "+emp.getSalary());
 		}else {
 			try {
 				throw new EmployeeNotFoundException("Employee Not Found");
@@ -72,7 +72,7 @@ public class EmployeeManagementSystemImpl implements EmployeeManagementSystem {
 	@Override
 	public void removeEmployee() {
 		System.out.println("Enter Employee Id to Remove : ");
-		String emp_id=ip.next();
+		String emp_id=ip.next().toUpperCase();
 		if(db.containsKey(emp_id)) {
 			db.remove(emp_id);
 			System.out.println("Employee Removed Successfully.");
