@@ -13,6 +13,11 @@
     <fullyQualifiedTypeName name="customexception.StudentNotFoundException"/>
     <fullyQualifiedTypeName name="edbms.EmployeeManagementSystem"/>
     <fullyQualifiedTypeName name="edbms.EmployeeManagementSystemImpl"/>
+    <fullyQualifiedTypeName name="customsorting.SortEmployeebyAge"/>
+    <fullyQualifiedTypeName name="customsorting.SortEmployeeById"/>
+    <fullyQualifiedTypeName name="customsorting.SortEmployeeByName"/>
+    <fullyQualifiedTypeName name="customsorting.SortEmployeeBySalary"/>
     <fullyQualifiedTypeName name="customexception.EmployeeNotFoundException"/>
     <fullyQualifiedTypeName name="customexception.InvalidChoiceException"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
 </qualifiedTypeNameHistroy>
