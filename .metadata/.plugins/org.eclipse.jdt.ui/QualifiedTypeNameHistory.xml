@@ -20,4 +20,9 @@
     <fullyQualifiedTypeName name="customexception.EmployeeNotFoundException"/>
     <fullyQualifiedTypeName name="customexception.InvalidChoiceException"/>
     <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="java.lang.IncompatibleClassChangeError"/>
+    <fullyQualifiedTypeName name="com.InvalidChoiceException"/>
+    <fullyQualifiedTypeName name="com.InvalidQuantityException"/>
+    <fullyQualifiedTypeName name="javax.lang.model.type.DeclaredType"/>
+    <fullyQualifiedTypeName name="com.DepartmentalStore"/>
 </qualifiedTypeNameHistroy>
