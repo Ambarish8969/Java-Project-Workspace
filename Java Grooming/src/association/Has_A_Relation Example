@@ -1,0 +1,25 @@
+Explain System.out.println() method.
+
+* System class has a static reference variable out of type PrintStream.
+* Using the reference variable out we can access the non-static methods of PrintStream Class.
+
+Explanation : 
+
+class System{
+	static PrintStream out = new PrintStream();
+}
+
+class PrintStream{
+	
+	void print(){
+	
+	}
+	
+	void println(){
+	
+	}
+	
+}
+
+* print() and println() are pre-defined example for method overloading.
+* hashCode9(), equals(), toString() and compareTo() are pre-defined example for method overriding.

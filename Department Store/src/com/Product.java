@@ -3,9 +3,9 @@ package com;
 public class Product {
 	private String name;
 	private int quantity;
-	private double cost;
+	private int cost;
 	
-	public Product(String name,int quantity,double cost) {
+	public Product(String name,int quantity,int cost) {
 		this.name=name;
 		this.quantity=quantity;
 		this.cost=cost;
@@ -27,11 +27,11 @@ public class Product {
 		this.quantity = quantity;
 	}
 
-	public double getCost() {
+	public int getCost() {
 		return cost;
 	}
 
-	public void setCost(double cost) {
+	public void setCost(int cost) {
 		this.cost = cost;
 	}
 
